@@ -5,7 +5,6 @@ email: ""
 description: "JD Maresco's blog"
 baseurl: ""
 url: "http://jd.mares.co"
-username: jdmaresco
 
 # Build settings
 markdown: kramdown
