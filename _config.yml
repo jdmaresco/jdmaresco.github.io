@@ -3,7 +3,7 @@ name: JD Maresco
 title: JD Maresco
 email: ""
 description: "JD Maresco's blog"
-baseurl: "jd.mares.co"
+baseurl: ""
 url: "http://jd.mares.co"
 
 # Build settings
