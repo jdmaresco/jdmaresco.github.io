@@ -1,0 +1,11 @@
+# Site settings
+name: JD Maresco
+title: JD Maresco
+email: ""
+description: "JD Maresco's blog"
+baseurl: ""
+url: "http://jd.mares.co"
+
+# Build settings
+markdown: kramdown
+permalinks: pretty
