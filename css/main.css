@@ -131,6 +131,10 @@ a:visited { color: #205caa; }
   top: 3px;
 }
 
+.ga-logo {
+  width: 20px;
+  height: 20px;
+}
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
