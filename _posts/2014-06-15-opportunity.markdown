@@ -5,8 +5,7 @@ date:   2014-06-15 02:58:00
 categories: thoughts
 ---
 
-**"This opportunity comes once in a lifetime, yo."** 
-
+**"This opportunity comes once in a lifetime, yo."**<br>
 –Marshall Bruce Mathers, III
 
 It takes strength and wisdom to be able to say yes to the right opportunity, when that opportunity means letting go of something else to which we have attached our identity. It takes a similar amount of fortitude to be able to say no to a good offer that presents itself at the wrong time. Our reactions when opportunity knocks can range from analysis paralysis to impulsive dice-rolling, because we are afraid of change... but we don't have to be. 
