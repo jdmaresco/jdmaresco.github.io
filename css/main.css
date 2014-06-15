@@ -9,8 +9,7 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: 'Kameron', serif;  font-size: 22px;
   line-height: 1.5;
   font-weight: 300;
   background-image: url('../img/tidal_basin.jpg');
@@ -46,7 +45,7 @@ a:visited { color: #205caa; }
 .site-header {
   border-bottom: 6px solid #eee;
   min-height: 30px;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(255,255,255,0.6);
 }
 
 .site-title,
@@ -72,6 +71,11 @@ a:visited { color: #205caa; }
 .site-nav .page-link {
   margin-left: 20px;
   color: #727272;
+  letter-spacing: -.5px;
+}
+
+.site-nav .social-icon {
+  margin-left: 20px;
   letter-spacing: -.5px;
 }
 
@@ -133,9 +137,12 @@ a:visited { color: #205caa; }
   top: 3px;
 }
 
-.ga-logo {
+.ga-icon-image {
+  display: inline-block;
   width: 20px;
   height: 20px;
+  position: relative;
+  top: 5px;
 }
 
 /* Page Content styles */
@@ -144,6 +151,16 @@ a:visited { color: #205caa; }
 .page-content {
   padding: 30px 0;
   //background-color: #fff;
+  height: 100%;
+  min-height: 100%
+
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(90deg, rgba(255, 255, 255,0) 250px, rgba(255, 255, 255, 0.7) 500px, rgba(255, 255, 255, 0.7) 100%, url('../img/tidal_basin.jpg'));
+  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255,0) 80px, rgba(255, 255, 255, 0.7) 200px);
+  background: -o-linear-gradient(90deg, rgba(255, 255, 255,0) 80px, rgba(255, 255, 255, 0.7) 200px);
+  background: -ms-linear-gradient(90deg, rgba(255, 255, 255,0) 80px, rgba(255, 255, 255, 0.7) 200px);
+  background: linear-gradient(180deg, rgba(255, 255, 255,0) 0px, rgba(255, 255, 255, 0) 200px, rgba(255, 255, 255, 0.9) 320px, rgba(255, 255, 255, 0.9) 100%);
+
 }
 
 
@@ -172,10 +189,13 @@ a:visited { color: #205caa; }
 /* Post styles */
 /* ----------------------------------------------------------*/
 
-.post-header { margin: 10px 0 30px; }
+.post-header { 
+  margin: 10px 0 30px; 
+  min-height: 260px;
+}
 
 .post-header h1 {
-  font-size: 42px;
+  font-size: 80px;
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
@@ -386,6 +406,14 @@ a:visited { color: #205caa; }
 
   .site-nav:hover .trigger { display: block; }
 
+  .site-nav .social-icon {
+    display: block;
+    text-align: center;
+    line-height: 1.25;
+    padding: 5px 10px;
+    margin: 0;
+  }
+
   .site-nav .page-link {
     display: block;
     text-align: right;
@@ -394,9 +422,12 @@ a:visited { color: #205caa; }
     margin: 0;
   }
 
-  .post-header h1 { font-size: 36px; }
-  .post-content h2 { font-size: 28px; }
-  .post-content h3 { font-size: 22px; }
+  .post-header {
+    min-height: 40px;
+  }
+  .post-header h1 { font-size: 48px; }
+  .post-content h2 { font-size: 36px; }
+  .post-content h3 { font-size: 24px; }
   .post-content h4 { font-size: 18px; }
   .post-content blockquote { padding-left: 10px; }
   .post-content ul,
