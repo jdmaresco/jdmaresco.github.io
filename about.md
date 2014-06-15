@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-I am a program producer at [General Assembly](http://ga.co/) and am launching a [Web Development Immersive](http://ga.co/wdi) program in Washington DC. I was previously with [Deloitte Consulting](). 
+I work with [General Assembly](http://ga.co/), helping people pursue work they love through education in technology, business, and design. I helped launch the [Web Development Immersive](http://ga.co/wdi) in Washington DC and am now the Global Program Manager for WDI, working with our teams in 10 cities and 4 continents. 
 
-I like to build things in code and am always trying to learn something new.
+I was previously with [Deloitte](http://www.deloitte.com/us/consulting). You can find me on [Twitter](www.twitter.com/jdmaresco) or [Github](www.github.com/jdmaresco).
 
-You can find me on [Twitter](www.twitter.com/jdmaresco) or [Github](www.github.com/jdmaresco).
+
 

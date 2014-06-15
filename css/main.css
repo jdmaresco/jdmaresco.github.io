@@ -16,6 +16,8 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  min-height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
@@ -30,12 +32,21 @@ a:visited { color: #205caa; }
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 800px;
+  max-width: 1000px;
   padding: 0 30px;
   margin: 0 auto;
   zoom: 1;
 }
 
+.left-col { 
+  float:left;
+  width: 37%;
+  padding:right: 3%; 
+}
+.right-col { 
+  float:right;
+  width: 60%;
+}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
@@ -71,6 +82,7 @@ a:visited { color: #205caa; }
 .site-nav .page-link {
   margin-left: 20px;
   color: #727272;
+  font-size: 18px;
   letter-spacing: -.5px;
 }
 
@@ -149,10 +161,10 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 
 .page-content {
-  padding: 30px 0;
+  padding: 30px 0 110px;
   //background-color: #fff;
   height: 100%;
-  min-height: 100%
+  min-height: 100%;
 
   background: rgb(255, 255, 255);
   background: -moz-linear-gradient(90deg, rgba(255, 255, 255,0) 250px, rgba(255, 255, 255, 0.7) 500px, rgba(255, 255, 255, 0.7) 100%, url('../img/tidal_basin.jpg'));
@@ -161,7 +173,12 @@ a:visited { color: #205caa; }
   background: -ms-linear-gradient(90deg, rgba(255, 255, 255,0) 80px, rgba(255, 255, 255, 0.7) 200px);
   background: linear-gradient(180deg, rgba(255, 255, 255,0) 0px, rgba(255, 255, 255, 0) 200px, rgba(255, 255, 255, 0.9) 320px, rgba(255, 255, 255, 0.9) 100%);
 
+  overflow: auto;
 }
+
+.page-content:before,
+.page-content:after { content:""; display:table; }
+.page-content:after { clear: both; }
 
 
 /* Home styles */
@@ -171,18 +188,18 @@ a:visited { color: #205caa; }
 
 .posts { list-style-type: none; }
 
-.posts li { margin-bottom: 30px; }
+.posts li { margin-bottom: 8px; }
 
 .posts .post-link {
-  font-size: 24px;
+  font-size: 16px;
   letter-spacing: -1px;
   line-height: 1;
 }
 
 .posts .post-date {
-  display: block;
-  font-size: 15px;
-  color: #818181;
+  display: inline;
+  font-size: 12px;
+  color: rgb(128,128,128);
 }
 
 
@@ -207,7 +224,7 @@ a:visited { color: #205caa; }
   margin-top: 5px;
 }
 
-.post-content { margin: 0 0 30px; }
+.post-content { margin: 0 0 80px; }
 
 .post-content > * { margin: 20px 0; }
 
@@ -247,9 +264,6 @@ a:visited { color: #205caa; }
   font-style: italic;
   margin: 30px 0;
 }
-
-.post-content ul,
-.post-content ol { padding-left: 20px; }
 
 .post pre,
 .post code {
@@ -369,6 +383,19 @@ a:visited { color: #205caa; }
     clear: both;
   }
 
+  .left-col { 
+    display:block;    
+    width: 100%;
+    float:none;
+  }
+  .right-col { 
+    display:block;
+    width: 100%;
+    float:none;
+  }
+
+  .left-col { display: none; }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -437,6 +464,7 @@ a:visited { color: #205caa; }
     float: none;
     clear: both;
     width: auto;
-    margin: 0 0 15px; }
+    margin: 0 0 15px; 
+  }
 
 }
