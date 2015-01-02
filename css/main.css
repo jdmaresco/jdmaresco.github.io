@@ -58,7 +58,7 @@ a:visited { color: #205caa; }
   min-height: 30px;
   position: fixed;
   width: 100%;
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(219, 219, 219, 1);
 }
 
 .site-title,

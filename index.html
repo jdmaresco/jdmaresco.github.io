@@ -9,29 +9,12 @@ layout: default
   <p class="meta">{{ first_post.date | date: "%b %-d, %Y" }}{% if first_post.author %} • {{ first_post.author }}{% endif %}{% if first_post.meta %} • {{ first_post.meta }}{% endif %}</p>
 </header>
 
-<div class="left-col">
-    <div class="post">
-        <article class="post-content">
-          <ul class="posts">
-              {% for post in site.posts %}
-                  <li>
-                    <span class="post-date">{{ post.date | date: "%m/%d/%y" }}</span> 
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                  </li>
-            {% endfor %}
-          </ul>      
-        </article>
-    </div>
+<div class="post">
+
+    <article class="post-content">
+      {{ first_post.content }}
+    </article>
+
+    <a name="comments"></a>
+    <div class="fb-comments" data-href="{{ site.url }}{{ first_post.url }}" data-numposts="5" data-colorscheme="light"></div>
 </div>
-
-<div class="right-col">
-  <div class="post">
-
-      <article class="post-content">
-        {{ first_post.content }}
-      </article>
-
-  </div>
-</div>
-
-
