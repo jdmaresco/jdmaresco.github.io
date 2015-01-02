@@ -9,10 +9,10 @@
 html, body { height: 100%; }
 
 body {
-  font-family: 'Exo 2', sans-serif;  font-size: 22px;
+  font-family: 'Exo 2', sans-serif;  font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
-  background-image: url('../img/tidal_basin.jpg');
+  //background-image: url('../img/tidal_basin.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -214,7 +214,7 @@ a:visited { color: #205caa; }
 }
 
 .post-header h1 {
-  font-size: 80px;
+  font-size: 44px;
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 400;
@@ -243,24 +243,24 @@ a:visited { color: #205caa; }
 }
 
 .post-content h1 {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
   letter-spacing: -1.25px;
 }
 
 .post-content h2 {
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 600;
   letter-spacing: -1.25px;
 }
 
 .post-content h3 {
-  font-size: 26px;
+  font-size: 20px;
   letter-spacing: -1px;
 }
 
 .post-content h4 {
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: -1px;
 }
 
