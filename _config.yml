@@ -9,3 +9,24 @@ url: "http://jd.mares.co"
 # Build settings
 markdown: kramdown
 permalinks: pretty
+
+# Pages in nav
+navLinks:
+- name: 'Bio'
+  url: '/bio'
+  show: true
+- name: 'Writing'
+  url: '/writing'
+  show: true
+- name: 'Contact'
+  url: '/contact'
+  show: true
+
+# Writing Pieces
+pieces:
+- name: 'A Beginners Guide to Bitcoin and the Blockchain'
+  url: 'https://www.linkedin.com/pulse/beginners-guide-bitcoin-blockchain-jd-maresco'
+  date: 'August 2015'
+- name: 'Top 5 Albums of 2014'
+  url: 'http://jd.mares.co/music/2015/01/01/top-5-albums-2014.html'
+  date: 'January 2015'
