@@ -13,13 +13,13 @@ permalinks: pretty
 # Pages in nav
 navLinks:
 - name: 'Bio'
-  url: '/bio'
+  url: '/bio/'
   show: true
 - name: 'Writing'
-  url: '/writing'
+  url: '/writing/'
   show: true
 - name: 'Contact'
-  url: '/contact'
+  url: '/contact/'
   show: true
 
 # Writing Pieces
