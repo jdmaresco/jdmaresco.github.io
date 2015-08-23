@@ -1,24 +1,29 @@
 <div class="row">
 
 <nav class="navbar navbar-dark bg-inverse m-t">
-  <a class="navbar-brand" href="http://jd.mares.co">{{ site.name }}</a>
-  <ul class="nav navbar-nav">
-    {% for link in site.navLinks %}
-      {% if link.name and link.show %}
-        {% if link.url == page.url %}
-          {% assign active   = 'active' %}
-          {% assign activeSR = '<span class="sr-only">(current)</span>'%}
+
+  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+    &#9776;
+  </button>
+  <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+    <a class="navbar-brand" href="http://jd.mares.co">{{ site.name }}</a>
+    <ul class="nav navbar-nav">
+      {% for link in site.navLinks %}
+        {% if link.name and link.show %}
+          {% if link.url == page.url %}
+            {% assign active   = 'active' %}
+            {% assign activeSR = '<span class="sr-only">(current)</span>'%}
+          {% endif %}
+
+          <li class="nav-item {{active}}">
+            <a class="nav-link" href="{{ link.url | prepend: site.url }}">{{ link.name }} {{activeSR}}</a>
+          </li>
+
+          {% assign active   = '' %}
+          {% assign activeSR   = '' %}
         {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
 
-        <li class="nav-item {{active}}">
-          <a class="nav-link" href="{{ link.url | prepend: site.url }}">{{ link.name }} {{activeSR}}</a>
-        </li>
-
-        {% assign active   = '' %}
-        {% assign activeSR   = '' %}
-      {% endif %}
-    {% endfor %}
-  </ul>
-</nav>
-
-</div>
+  </div>

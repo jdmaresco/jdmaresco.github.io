@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: page-left-sidebar
 title: Bio
 permalink: /bio/
+sidebarPhoto: jdm.jpg
 ---
 
 I work with [General Assembly](http://ga.co/), helping people pursue work they love through education in technology, business, and design. I am the Product Manager for GA's [Web Development Immersive](http://ga.co/wdi) program.
