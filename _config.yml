@@ -24,6 +24,9 @@ navLinks:
 
 # Writing Pieces
 pieces:
+- name: 'Ethereum and the Decentralized Web'
+  url: 'https://www.linkedin.com/pulse/ethereum-decentralized-web-jd-maresco'
+  date: 'August 2015'
 - name: 'A Beginners Guide to Bitcoin and the Blockchain'
   url: 'https://www.linkedin.com/pulse/beginners-guide-bitcoin-blockchain-jd-maresco'
   date: 'August 2015'
