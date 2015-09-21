@@ -3,6 +3,7 @@ layout: post
 title:  "My top 5 albums of 2014"
 date:   2015-01-01 21:44:00
 categories: music
+comments: true
 ---
 
 ### **#1:** *Awake* by **Tycho**
