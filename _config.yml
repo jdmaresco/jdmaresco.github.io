@@ -29,7 +29,7 @@ navLinks:
 # Writing Pieces
 pieces:
 - name: 'Use Slack, Google Apps Script, and Google Sheets to automate your stand-ups'
-  url: 'http://jd.mares.co/tutorials/2015/09/20/project-reporting-slack-google-sheets.html'
+  url: 'http://jd.mares.co/tutorials/2015/09/20/slack-google-apps-script-stand-ups.html'
   date: 'September 2015'
 - name: 'Ethereum and the Decentralized Web'
   url: 'https://www.linkedin.com/pulse/ethereum-decentralized-web-jd-maresco'
