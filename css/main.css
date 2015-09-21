@@ -1,7 +1,14 @@
 body {
   font-family: 'Raleway', sans-serif;
 }
+h1,h2 {
+  font-weight: 600
+}
 
 svg {
     width:20px;
+}
+
+strong {
+  font-weight: 600;
 }

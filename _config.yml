@@ -8,6 +8,10 @@ url: "http://jd.mares.co"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 permalinks: pretty
 
 # Pages in nav
@@ -24,6 +28,9 @@ navLinks:
 
 # Writing Pieces
 pieces:
+- name: 'Use Slack and Google Sheets to automate team project reporting'
+  url: 'http://jd.mares.co/tutorials/2015/09/20/project-reporting-slack-google-sheets.html'
+  date: 'September 2015'
 - name: 'Ethereum and the Decentralized Web'
   url: 'https://www.linkedin.com/pulse/ethereum-decentralized-web-jd-maresco'
   date: 'August 2015'
