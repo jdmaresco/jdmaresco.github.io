@@ -17,7 +17,7 @@ If you're working for a small- to mid-sized company that was founded in the last
 
 ### Prerequisites
 
-- Understand how to use a little bit of JavaScript
+- Understand the basics of JavaScript
 - Have a Google or Google Apps account
 - Have access to add integrations to a Slack team (you can [create a new team](https://slack.com/create) for free)
 
