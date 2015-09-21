@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Use Slack and Google Sheets to automate project reporting"
+title:  "Use Slack, Google Apps Script, and Google Sheets to automate your stand-ups"
 date:   2015-09-20 21:00:00
 categories: tutorials
 comments: true
