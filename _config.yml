@@ -25,6 +25,9 @@ navLinks:
 - name: 'Contact'
   url: '/contact/'
   show: true
+- name: 'Consulting'
+  url: '/rhythm/'
+  show: true
 
 # Writing Pieces
 pieces:
