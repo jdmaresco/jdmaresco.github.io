@@ -31,7 +31,7 @@ navLinks:
 
 # Writing Pieces
 pieces:
-- name: 'Geoanalysis in Google Sheets with custom formulas and the Google Maps API'
+- name: 'Geoanalysis in Google Sheets with Custom Functions and the Google Maps API'
   url: 'http://jd.mares.co/tutorials/2015/10/26/adding-google-maps-data-to-spreadsheets.html'
   date: 'October 2015'
 - name: 'Use Slack, Google Apps Script, and Google Sheets to automate your stand-ups'
