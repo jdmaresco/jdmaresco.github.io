@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Geoanalysis in Google Sheets with custom formulas and the Google Maps API"
+title:  "Geoanalysis in Google Sheets with Custom Functions and the Google Maps API"
 date:   2015-10-26 12:10:00
 categories: tutorials
 comments: true
