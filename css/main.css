@@ -16,3 +16,9 @@ svg {
 strong {
   font-weight: 600;
 }
+
+.pitch {
+  padding: 10px;
+  background-color: #cccccc;
+  margin-bottom: 35px;
+}
