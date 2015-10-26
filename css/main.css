@@ -5,6 +5,10 @@ h1,h2 {
   font-weight: 600
 }
 
+img {
+  max-width: 100%
+}
+
 svg {
     width:20px;
 }
