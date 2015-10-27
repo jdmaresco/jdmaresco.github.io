@@ -6,13 +6,23 @@ body {
   font-size: 16px;
 }
 
-div.row:first-child {
-  margin-top: 70px;
+div.row {
+  &:first-child{
+    margin-top: 18px;
+  }
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-top: 1px solid #dddddd;
+}
+
+div.row:last-child {
+
 }
 
 .welcome {
   background-color: #ddd;
-  padding: 0px 15px 20px 15px;
+  padding: 1px 15px 20px 15px;
+  margin-top: 50px;
 }
 
 h1,h2 {

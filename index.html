@@ -6,20 +6,22 @@ layout: default
   <div class="col col-md-7">
       {% for post in site.pieces limit:3%}
         <div class="row">
-        <h3>{{post.name}}</h3>
-        {% if post.type == 'post' %}
-          {% for actual_post in site.posts limit:1 %}
-            {{ actual_post.excerpt }}
-            <a href="{{post.url}}" class="btn btn-default">Read more...</a>
-          {% endfor %}
-        {% else %}
-          <a href="{{post.url}}" class="btn btn-default">Read this post on {{ post.site }}</a>
-        {% endif %}
+          <div class="col-md-12">
+          <h3>{{post.name}}</h3>
+          {% if post.type == 'post' %}
+            {% for actual_post in site.posts limit:1 %}
+              {{ actual_post.excerpt }}
+              <a href="{{post.url}}" class="btn btn-default">Read more...</a>
+            {% endfor %}
+          {% else %}
+            <a href="{{post.url}}" class="btn btn-default">Read this post on {{ post.site }}</a>
+          {% endif %}
+          </div>
         </div>
       {% endfor %}
   </div>
   <div class="col col-md-4 col-md-offset-1">
-    <div class="row welcome">
+    <div class="welcome">
       <h2>Say Hi.</h2>
       <h4 class="m-t-md">
         <span class="text-muted">Have a project, idea, or question you want to chat about? </span>

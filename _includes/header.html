@@ -1,18 +1,19 @@
 
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-
-
-
-      <a href="#challenges">
-        <a class="navbar-brand" href="http://jd.mares.co">{{ site.name }}</a>
-      </a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://jd.mares.co">{{ site.name }}</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div id="link-nav-holder" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div id="link-nav-holder" class="collapse navbar-collapse" id="main-navbar">
       <ul id="link-nav" class="nav navbar-nav navbar-right text-uppercase">
 
         {% for link in site.navLinks %}
