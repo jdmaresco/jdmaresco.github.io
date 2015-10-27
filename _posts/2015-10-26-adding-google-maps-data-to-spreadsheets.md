@@ -4,15 +4,14 @@ title:  "Geoanalysis in Google Sheets with Custom Functions and the Google Maps 
 date:   2015-10-26 12:10:00
 categories: tutorials
 comments: true
+excerpt_separator: <!--more-->
 ---
-{:center: style="text-align: center"}
-
-### Introduction
 
 **Here's the scenario.** You're an independent clothing designer, thinking of opening a pop-up shop in Brooklyn. You know you've made a number of sales in Brooklyn in the last year, but want to do some quick geographic analysis to get a visual on the neighborhood distribution to help you figure out where you should open up shop.
 
 **Our goal:**  To take a list of customer addresses and create a pie chart illustrating the distribution of neighborhoods.
-<br>
+
+<!--more-->
 
 ### Prerequisites
 

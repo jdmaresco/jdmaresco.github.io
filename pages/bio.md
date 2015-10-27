@@ -5,13 +5,17 @@ permalink: /bio/
 sidebarPhoto: jdm.jpg
 ---
 
-I'm a startup consultant, product manager, and operations strategist. I have worked with startups and Fortune 100 clients, and am currently launching a [consulting practice](/rhythm) focused on helping high-growth startups reimagine their operational workflow and hack their way to productivity.
+#### **I am a startup consultant, operations hacker, and code mentor.**
 
-I also serve as a mentor at General Assembly and am always working on a number of side projects. Please get in touch if you'd like to discuss a potential collaboration, or just toss around ideas over coffee!
+### About Me
 
-#### My Background
+I have built products, processes, and systems for startups and Fortune 500 clients. I advise and train high-growth startups on how to use code to improve their daily workflow and hack their way to productivity. I also serve as a mentor to new and aspiring web developers at General Assembly.
+
+### My Background
 
 I previously ran [General Assembly](http://ga.co/)'s WDI program, the world's largest web development bootcamp, which has helped thousands of students pursue work they love. Before that, I served as a consultant with [Deloitte](http://www.deloitte.com/us/consulting). I am a graduate of the [University of Maryland](http://www.umd.edu).
+
+### More
 
 For more about my work, find me on [LinkedIn](https://www.linkedin.com/in/jdmaresco).
 

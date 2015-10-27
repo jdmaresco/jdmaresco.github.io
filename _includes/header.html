@@ -1,29 +1,37 @@
-<div class="row">
 
-<nav class="navbar navbar-dark bg-inverse m-t">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
 
-  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
-    &#9776;
-  </button>
-  <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-    <a class="navbar-brand" href="http://jd.mares.co">{{ site.name }}</a>
-    <ul class="nav navbar-nav">
-      {% for link in site.navLinks %}
-        {% if link.name and link.show %}
-          {% if link.url == page.url %}
-            {% assign active   = 'active' %}
-            {% assign activeSR = '<span class="sr-only">(current)</span>'%}
+
+
+      <a href="#challenges">
+        <a class="navbar-brand" href="http://jd.mares.co">{{ site.name }}</a>
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div id="link-nav-holder" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul id="link-nav" class="nav navbar-nav navbar-right text-uppercase">
+
+        {% for link in site.navLinks %}
+          {% if link.name and link.show %}
+            {% if link.url == page.url %}
+              {% assign active   = 'active' %}
+              {% assign activeSR = '<span class="sr-only">(current)</span>'%}
+            {% endif %}
+
+            <li class="nav-item {{active}}">
+              <a class="nav-link" href="{{ link.url | prepend: site.url }}">{{ link.name }} {{activeSR}}</a>
+            </li>
+
+            {% assign active   = '' %}
+            {% assign activeSR   = '' %}
           {% endif %}
+        {% endfor %}
 
-          <li class="nav-item {{active}}">
-            <a class="nav-link" href="{{ link.url | prepend: site.url }}">{{ link.name }} {{activeSR}}</a>
-          </li>
-
-          {% assign active   = '' %}
-          {% assign activeSR   = '' %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </nav>
-
+      </ul>
+    </div><!-- /.navbar-collapse -->
   </div>
+</nav>
