@@ -9,10 +9,12 @@ layout: default
           <div class="col-md-12">
           <h3>{{post.name}}</h3>
           {% if post.type == 'post' %}
-            {% for actual_post in site.posts limit:1 %}
-              {{ actual_post.excerpt }}
-              <a href="{{post.url}}" class="btn btn-default">Read more...</a>
-            {% endfor %}
+            {% if forloop.index == 1 %}
+              {% for actual_post in site.posts limit:1 %}
+                {{ actual_post.excerpt }}
+              {% endfor %}
+            {% endif %}
+            <a href="{{post.url}}" class="btn btn-default">Read more...</a>
           {% else %}
             <a href="{{post.url}}" class="btn btn-default">Read this post on {{ post.site }}</a>
           {% endif %}
