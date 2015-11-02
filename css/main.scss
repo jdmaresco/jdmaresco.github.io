@@ -8,7 +8,17 @@ body {
 }
 
 div.row {
-  &.top{
+  &.unbounce {
+    background-color: rgb(237,167,106);
+    border: 4px solid rgb(220,138,84);
+    color: #555;
+    padding: 1px 15px 20px 15px;
+    margin-top: 50px;
+  }
+  .welcome {
+    background-color: #eee;
+    padding: 1px 15px 20px 15px;
+    margin-top: 50px;
   }
   padding-top: 10px;
   padding-bottom: 30px;
@@ -21,11 +31,6 @@ div.row:last-child {
 
 }
 
-.welcome {
-  background-color: #ddd;
-  padding: 1px 15px 20px 15px;
-  margin-top: 50px;
-}
 
 h1,h2 {
   font-weight: 600
