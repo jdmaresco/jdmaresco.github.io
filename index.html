@@ -13,6 +13,14 @@ layout: default
         <a href="contact" class="btn btn-primary">Get in touch</a>
       </div>
     </div>
+    <div class="row">
+      <h4>Posts:</h4>
+      {% for post in site.posts %}
+        <p class="post-link">
+          <a href="#{{ post.slug }}">{{ post.title }}</a><br>
+        </p>
+      {% endfor %}
+    </div>
     <!--div class="row unbounce">
       <div class="col-md-12">
         <h2>Need help?</h2>
@@ -24,22 +32,25 @@ layout: default
     </div-->
   </div>
   <div class="col col-md-7 col-md-pull-5">
-      {% for post in site.pieces limit:3%}
-        <div class="row post">
+      {% for post in site.posts %}
+        {% if post.published %}
+        <div class="row post" id="{{ post.slug }}">
           <div class="col-md-12">
-          <h3>{{post.name}}</h3>
-          {% if post.type == 'post' %}
-            {% if forloop.index == 1 %}
-              {% for actual_post in site.posts limit:1 %}
-                {{ actual_post.excerpt }}
-              {% endfor %}
-            {% endif %}
-            <a href="{{post.url}}" class="btn btn-default">Read more...</a>
+          <h3>{{ post.title }}</h3>
+          {% if post.thumb %}
+            <img src="{{post.thumb}}" class="pull-right thumb{% if post.thumb-border %} thumb-border{% endif %}">
+          {% endif %}
+
+          {% if post.site %}
+            <p class="post-excerpt">{{ post.excerpt }}</p>
+            <a href="{{post.url}}" class="btn btn-primary">Read</a>
           {% else %}
-            <a href="{{post.url}}" class="btn btn-default">Read this post on {{ post.site }}</a>
+            <p class="post-excerpt">{{ post.excerpt }}</p>
+            <a href="{{post.url}}" class="btn btn-primary">Keep reading...</a>
           {% endif %}
           </div>
         </div>
+        {% endif %}
       {% endfor %}
   </div>
 

@@ -5,6 +5,8 @@ date:   2015-10-26 12:10:00
 categories: tutorials
 comments: true
 excerpt_separator: <!--more-->
+thumb: /images/maps-google-sheets/sheet-starter.png
+published: true
 ---
 
 **Here's the scenario.** You're an independent clothing designer, thinking of opening a pop-up shop in Brooklyn. You know you've made a number of sales in Brooklyn in the last year, but want to do some quick geographic analysis to get a visual on the neighborhood distribution to help you figure out where you should open up shop.

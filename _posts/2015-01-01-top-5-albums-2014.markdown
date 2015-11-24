@@ -3,7 +3,9 @@ layout: post
 title:  "My top 5 albums of 2014"
 date:   2015-01-01 21:44:00
 categories: music
+excerpt: "In this post, I share my personal top 5 albums of the year and a brief synopsis of each."
 comments: true
+published: true
 ---
 
 ### **#1:** *Awake* by **Tycho**

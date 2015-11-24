@@ -19,9 +19,6 @@ navLinks:
 - name: 'Bio'
   url: '/bio/'
   show: true
-- name: 'Writing'
-  url: '/writing/'
-  show: true
 - name: 'Contact'
   url: '/contact/'
   show: true
@@ -29,25 +26,11 @@ navLinks:
   url: '/rhythm/'
   show: true
 
-# Writing Pieces
-pieces:
-- name: 'Geoanalysis in Google Sheets with Custom Functions and the Google Maps API'
-  url: 'http://jd.mares.co/tutorials/2015/10/26/adding-google-maps-data-to-spreadsheets.html'
-  date: 'October 2015'
-  type: 'post'
-- name: 'Use Slack, Google Apps Script, and Google Sheets to automate your stand-ups'
-  url: 'http://jd.mares.co/tutorials/2015/09/20/slack-google-apps-script-stand-ups.html'
-  date: 'September 2015'
-  type: 'post'
-- name: 'Ethereum and the Decentralized Web'
-  url: 'https://www.linkedin.com/pulse/ethereum-decentralized-web-jd-maresco'
-  date: 'August 2015'
-  site: 'LinkedIn'
-- name: 'A Beginners Guide to Bitcoin and the Blockchain'
-  url: 'https://www.linkedin.com/pulse/beginners-guide-bitcoin-blockchain-jd-maresco'
-  date: 'August 2015'
-  site: 'LinkedIn'
-- name: 'Top 5 Albums of 2014'
-  url: 'http://jd.mares.co/music/2015/01/01/top-5-albums-2014.html'
-  date: 'January 2015'
-  type: 'post'
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      published: false
+      layout: "default"
+      comments: false

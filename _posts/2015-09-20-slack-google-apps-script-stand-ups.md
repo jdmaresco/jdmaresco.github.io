@@ -4,12 +4,16 @@ title:  "Use Slack, Google Apps Script, and Google Sheets to automate your stand
 date:   2015-09-20 21:00:00
 categories: tutorials
 comments: true
+excerpt_separator: <!--more-->
+thumb: /images/slack-google-sheets/03.png
+thumb-border: true
+published: true
 ---
 {:center: style="text-align: center"}
 
-### Introduction
-
 If you're working for a small- to mid-sized company that was founded in the last 10 years, chances are you're using Google Apps everyday for mail, spreadsheets, documents, and, well... maybe your entire job. In this tutorial, we're going to use Google Apps Script, a powerful JavaScript-based programming language built right into all of your Google Apps. Chances are, you may not even realize how much power is available to you – you can create custom add-ons for your company, connect to outside services, and add new formulas to your spreadsheets. We can even do crazy things like send a Gmail from a custom menu in Google Sheets, or create a new Google Doc whenever someone submits a Google Form.
+
+<!--more-->
 
 ### What's Slack?
 
