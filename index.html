@@ -41,9 +41,9 @@ layout: default
             <img src="{{post.thumb}}" class="pull-right thumb{% if post.thumb-border %} thumb-border{% endif %}">
           {% endif %}
 
-          {% if post.site %}
+          {% if post.remote-url %}
             <p class="post-excerpt">{{ post.excerpt }}</p>
-            <a href="{{post.url}}" class="btn btn-primary">Read</a>
+            <a href="{{post.remote-url}}" class="btn btn-primary">Read</a>
           {% else %}
             <p class="post-excerpt">{{ post.excerpt }}</p>
             <a href="{{post.url}}" class="btn btn-primary">Keep reading...</a>
