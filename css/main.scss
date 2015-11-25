@@ -32,11 +32,19 @@ div.row:last-child {
 }
 
 #right-bar-fixed {
-  position:fixed;
-  right: 40px;
-  overflow-y:scroll;
-  overflow-x:hidden;
-  max-height: 80%;
+  @media(min-width:992px){
+    position:fixed;
+    right: 40px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    max-height: 80%;
+  }
+}
+
+#post-links {
+  @media(max-width:991px){
+    display:none;
+  }
 }
 
 h1,h2,h3 {
