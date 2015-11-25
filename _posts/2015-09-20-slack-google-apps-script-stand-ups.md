@@ -3,6 +3,7 @@ layout: post
 title:  "Use Slack, Google Apps Script, and Google Sheets to automate your stand-ups"
 date:   2015-09-20 21:00:00
 categories: tutorials
+tags: tutorials tech hacks
 comments: true
 excerpt_separator: <!--more-->
 thumb: /images/slack-google-sheets/03.png

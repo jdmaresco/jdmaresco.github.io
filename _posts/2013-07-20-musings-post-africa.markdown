@@ -3,6 +3,7 @@ layout: post
 title:  "Musings post-Africa"
 date:   2013-07-20 23:45:00
 categories: career
+tags: personal career
 published: true
 slug: musings-post-africa
 ---

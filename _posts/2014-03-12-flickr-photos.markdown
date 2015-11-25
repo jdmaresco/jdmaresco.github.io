@@ -3,6 +3,7 @@ layout: post
 title:  "Bulk Download of Full-Size Flickr Photos"
 date:   2014-03-12 17:31:00
 categories: projects
+tags: tech hacks
 published: true
 slug: bulk-download-full-size-flickr-photos
 ---

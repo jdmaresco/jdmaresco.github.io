@@ -3,6 +3,7 @@ layout: post
 title:  "Geoanalysis in Google Sheets with Custom Functions and the Google Maps API"
 date:   2015-10-26 12:10:00
 categories: tutorials
+tags: tutorials tech hacks
 comments: true
 excerpt_separator: <!--more-->
 thumb: /images/maps-google-sheets/sheet-starter.png
