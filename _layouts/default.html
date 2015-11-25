@@ -15,8 +15,10 @@
       $(function() {
         $("a[href^=#]").click(function(e) {
           e.preventDefault();
-          var dest = $(this).attr('href');
-          $('html,body').animate({ scrollTop: $(dest).offset().top - 50 }, 'slow'); 
+          $('html, body').animate({
+              scrollTop: $( $.attr(this, 'href') ).offset().top - 50
+          }, 1000, 'swing');
+          return false;
         })
       })
     </script>
