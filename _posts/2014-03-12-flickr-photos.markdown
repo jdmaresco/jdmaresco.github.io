@@ -4,6 +4,7 @@ title:  "Bulk Download of Full-Size Flickr Photos"
 date:   2014-03-12 17:31:00
 categories: projects
 published: true
+slug: bulk-download-full-size-flickr-photos
 ---
 
 Sitting here in NYC at General Assembly HQ, trying to gather all the info and best practices I can. I’m really happy to be working with GA to launch educational programs in DC that I really believe are going to help so many people chart a new path towards doing work they love.

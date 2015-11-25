@@ -6,6 +6,7 @@ categories: tutorials
 comments: true
 excerpt_separator: <!--more-->
 thumb: /images/maps-google-sheets/sheet-starter.png
+slug: geoanalysis-google-sheets-custom-functions-google-maps-api
 published: true
 ---
 

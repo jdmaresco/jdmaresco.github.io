@@ -4,6 +4,7 @@ title:  "Musings post-Africa"
 date:   2013-07-20 23:45:00
 categories: career
 published: true
+slug: musings-post-africa
 ---
 
 I’ve been home from Africa for about a week now, but only made it back to L.A. a couple days ago. I took a few days in Florida to sleep, hang out with my parents, brothers, and grandparents, and just all around make the time zone shift less jarring (7 hours is better than 10 hours)… anyways. The trip was awesome. I met so many amazing people and had 10 days to get out of the daily grind and think about my future. I’ll write more about the entrepreneurs I met and details of my trip later, but the biggest thing I came away with was this: As I met with smart kids building companies and apps across the world in Africa, I realized where my passion lies… I’m an entrepreneur, straight up. I can’t get around it. I started my first company when I was 10 years old and that was the coolest thing ever. When I got started getting “real jobs”, I worked for a tiny organization, then a mid-sized company, and now a massive global consultancy. And it’s been a good ride; I’m happy for my time in corporate America. My time in consulting has taught me a lot of things - for example, to be successful you need to find your niche, network until you get where you want to be, work your ass off, and build your own career (‘cuz it ain’t gonna build itself).

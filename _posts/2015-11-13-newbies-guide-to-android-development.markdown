@@ -5,5 +5,6 @@ categories: article
 excerpt: "This article gives an overview of key trends and opportunities in the Android ecosystem today."
 thumb: http://blog.generalassemb.ly/blog/wp-content/uploads/2015/11/Android101_DripArt1.jpg
 remoteUrl: http://blog.generalassemb.ly/what-is-android-development/
+slug: what-is-android-development
 published: true
 ---
