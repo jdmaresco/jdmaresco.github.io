@@ -16,9 +16,11 @@ layout: default
     <div id="post-links" class="row">
       <h4>Posts:</h4>
       {% for post in site.posts %}
+        {% if post.published %}
         <p class="post-link">
           <a href="#{{ post.slug }}">{{ post.title }}</a><br>
         </p>
+        {% endif %}
       {% endfor %}
     </div>
     <!--div class="row unbounce">
