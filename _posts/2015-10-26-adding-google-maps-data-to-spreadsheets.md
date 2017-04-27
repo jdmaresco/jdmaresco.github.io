@@ -7,7 +7,7 @@ tags: tutorials tech hacks
 comments: true
 excerpt_separator: <!--more-->
 thumb: /images/maps-google-sheets/sheet-starter.png
-slug: geoanalysis-google-sheets-custom-functions-google-maps-api
+slug: adding-google-maps-data-to-spreadsheets
 published: true
 ---
 

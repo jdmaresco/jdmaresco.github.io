@@ -8,7 +8,7 @@ comments: true
 excerpt_separator: <!--more-->
 thumb: /images/slack-google-sheets/03.png
 thumb-border: true
-slug: slack-google-apps-script-google-sheets-automate-stand-ups
+slug: slack-google-apps-script-stand-ups
 published: true
 ---
 
